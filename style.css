@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+#Continents {
+  margin: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#Continents:hover {
+  background-color: #e6e6e6;
+}
+
+#Date, #currentTime {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block; /* Display in the same line */
+}
+
+#adhan_table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#adhan_table th, #adhan_table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+#adhan_table th {
+  background-color: #3498db;
+  color: white;
+}
+
+.cellule {
+  font-weight: bold;
+}
+
+.adhanName, .adhanTiming {
+  padding: 8px 0;
+  margin-top: 4px;
+  border-radius: 4px;
+}
+
+.adhanName {
+  background-color: #3498db;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.adhanName:hover {
+  background-color: #2980b9;
+}
+
+.adhanTiming {
+  background-color: #2ecc71;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.adhanTiming:hover {
+  background-color: #27ae60;
+}
+
+footer {
+  background-color: #333; /* Dark background color */
+  color: white; /* Text color */
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0; /* Remove default margin */
+}
+
+/* Style for the select element */
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+select:hover {
+  background-color: #e6e6e6;
+}
