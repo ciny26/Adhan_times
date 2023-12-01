@@ -74,7 +74,7 @@ function checkMidnight(){
 setPlace(availabaleCities);
 setInterval(() => {
    checkMidnight()
-}, 1000);// Update the time every second
+}, 100);// Update the time every second
 setInterval(() => {
     updateTimeInDiv('currentTime');
 }, 1000);
